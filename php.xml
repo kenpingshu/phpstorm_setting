@@ -20,8 +20,8 @@
       <interpreter home="docker://sbdev/wordpress:ww-2.2/php" id="374d05de-8cc9-427e-be87-4ea143398fa0" name="Remote PHP 5.5" debugger_id="php.debugger.XDebug">
         <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="sbdev/wordpress:ww-2.2" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
-      <interpreter home="docker://tmp/laravel:latest/php" id="6afec85d-6aa7-441b-8549-b6f4929f5b17" name="background check 7.1" debugger_id="php.debugger.XDebug">
-        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="tmp/laravel:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      <interpreter home="docker://sbdev/laravel:laravel-1.1/php" id="6afec85d-6aa7-441b-8549-b6f4929f5b17" name="background check 7.1" debugger_id="php.debugger.XDebug">
+        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="sbdev/laravel:laravel-1.1" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
     </interpreters>
   </component>
