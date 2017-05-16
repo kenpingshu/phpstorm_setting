@@ -1,5 +1,8 @@
 <keymap version="1" name="IntelliJ IDEA Classic copy" parent="$default">
   <action id="AddToFavoritesPopup" />
+  <action id="ChangesView.Commit">
+    <keyboard-shortcut first-keystroke="shift c" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="shift alt f" />
