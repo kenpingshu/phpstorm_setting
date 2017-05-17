@@ -2,11 +2,15 @@
   <action id="AddToFavoritesPopup" />
   <action id="ChangesView.Commit">
     <keyboard-shortcut first-keystroke="shift c" />
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
   </action>
+  <action id="CopyPaths" />
+  <action id="DatabaseView.CopyDdlAction" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="shift alt f" />
   </action>
+  <action id="RemoteHostView.CopyPaths" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
