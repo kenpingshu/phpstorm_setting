@@ -3,6 +3,8 @@
     <extensionMap>
       <mapping pattern=".environment.env" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern="Gemfile" type="PLAIN_TEXT" />
+      <mapping pattern="Capfile" type="PLAIN_TEXT" />
       <mapping pattern="ffce77b514e50db0dc2011e5e88fabeccd7f624d" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
