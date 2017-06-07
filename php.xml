@@ -1204,7 +1204,7 @@
     <phpunit_settings>
       <phpunit_by_interpreter interpreter_id="4b08d220-aca6-449b-aa10-0e59fcba1614" load_method="CUSTOM_LOADER" bootstrap_file_path="/var/www/html/bootstrap/autoload.php" configuration_file_path="/var/www/html/phpunit.xml" custom_loader_path="/var/www/html/vendor/autoload.php" phpunit_phar_path="/var/www/html/vendor/bin/phpunit" use_configuration_file="true" />
       <phpunit_by_interpreter interpreter_id="4c541a1d-5c59-486d-87fa-f8063751d0eb" load_method="CUSTOM_LOADER" configuration_file_path="/var/www/html/books_datas/phpunit.xml" custom_loader_path="/var/www/html/books_datas/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
-      <phpunit_by_interpreter interpreter_id="6afec85d-6aa7-441b-8549-b6f4929f5b17" load_method="CUSTOM_LOADER" />
+      <phpunit_by_interpreter interpreter_id="6afec85d-6aa7-441b-8549-b6f4929f5b17" load_method="CUSTOM_LOADER" configuration_file_path="/var/www/html/phpunit.xml" custom_loader_path="/var/www/html/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
     </phpunit_settings>
   </component>
 </application>
