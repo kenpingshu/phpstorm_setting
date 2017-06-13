@@ -11,7 +11,7 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="docker://kencool107/97buy_php:1.0/php" id="4b08d220-aca6-449b-aa10-0e59fcba1614" name="Remote PHP 7.1" debugger_id="php.debugger.XDebug">
+      <interpreter home="docker://kencool107/97buy_php:1.0/php" id="4b08d220-aca6-449b-aa10-0e59fcba1614" name="97buy 7.1" debugger_id="php.debugger.XDebug">
         <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="kencool107/97buy_php:1.0" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
       <interpreter home="docker://kencool107/php7-apache:latest/php" id="4c541a1d-5c59-486d-87fa-f8063751d0eb" name="My Local PHP 7.1" debugger_id="php.debugger.XDebug">
@@ -627,7 +627,7 @@
       <interpreter name="My Local PHP 7.1">
         <phpinfo binary_type="PHP" php_cli="/usr/local/bin/php" path_separator=":" version="7.1.0">
           <additional_php_ini>/usr/local/etc/php/conf.d/docker-php-ext-pdo_mysql.ini, /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini, /usr/local/etc/php/conf.d/docker-php-ext-zip.ini</additional_php_ini>
-          <configuration_file>/usr/local/etc/php/php.ini</configuration_file>
+          <configuration_file />
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
@@ -666,9 +666,9 @@
             <configuration_option name="enable_dl" value="1" />
             <configuration_option name="enable_post_data_reading" value="1" />
             <configuration_option name="error_append_string" value="" />
-            <configuration_option name="error_log" value="/var/log/apache2/error.log" />
+            <configuration_option name="error_log" value="" />
             <configuration_option name="error_prepend_string" value="" />
-            <configuration_option name="error_reporting" value="32767" />
+            <configuration_option name="error_reporting" value="0" />
             <configuration_option name="expose_php" value="1" />
             <configuration_option name="extension_dir" value="/usr/local/lib/php/extensions/no-debug-non-zts-20160303" />
             <configuration_option name="file_uploads" value="1" />
@@ -692,7 +692,7 @@
             <configuration_option name="include_path" value=".:/usr/local/lib/php" />
             <configuration_option name="input_encoding" value="" />
             <configuration_option name="internal_encoding" value="" />
-            <configuration_option name="log_errors" value="1" />
+            <configuration_option name="log_errors" value="0" />
             <configuration_option name="log_errors_max_len" value="1024" />
             <configuration_option name="mail.add_x_header" value="0" />
             <configuration_option name="mail.force_extra_parameters" value="" />
@@ -820,7 +820,7 @@
             <configuration_option name="xdebug.force_display_errors" value="0" />
             <configuration_option name="xdebug.force_error_reporting" value="0" />
             <configuration_option name="xdebug.halt_level" value="0" />
-            <configuration_option name="xdebug.idekey" value="KEN" />
+            <configuration_option name="xdebug.idekey" value="" />
             <configuration_option name="xdebug.max_nesting_level" value="256" />
             <configuration_option name="xdebug.max_stack_frames" value="-1" />
             <configuration_option name="xdebug.overload_var_dump" value="2" />
@@ -837,7 +837,7 @@
             <configuration_option name="xdebug.remote_cookie_expire_time" value="3600" />
             <configuration_option name="xdebug.remote_enable" value="0" />
             <configuration_option name="xdebug.remote_handler" value="dbgp" />
-            <configuration_option name="xdebug.remote_host" value="172.20.0.1" />
+            <configuration_option name="xdebug.remote_host" value="localhost" />
             <configuration_option name="xdebug.remote_log" value="" />
             <configuration_option name="xdebug.remote_mode" value="req" />
             <configuration_option name="xdebug.remote_port" value="9000" />
@@ -868,7 +868,7 @@
             <configuration_option name="zlib.output_handler" value="" />
           </configuration_options>
           <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.4.0">
+            <debugger_info debugger="xdebug" debugger_version="2.5.3">
               <debug_extensions />
             </debugger_info>
           </debuggers>
@@ -911,7 +911,7 @@
           </loaded_extensions>
         </phpinfo>
       </interpreter>
-      <interpreter name="Remote PHP 7.1">
+      <interpreter name="97buy 7.1">
         <phpinfo binary_type="PHP" php_cli="/usr/local/bin/php" path_separator=":" version="7.1.0">
           <additional_php_ini>/usr/local/etc/php/conf.d/docker-php-ext-pdo_mysql.ini, /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini, /usr/local/etc/php/conf.d/docker-php-ext-zip.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/php.ini</configuration_file>
