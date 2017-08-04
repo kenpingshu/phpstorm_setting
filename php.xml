@@ -9,22 +9,6 @@
       <PhpCSConfiguration />
     </phpcs_settings>
   </component>
-  <component name="PhpInterpreters">
-    <interpreters>
-      <interpreter home="docker://kencool107/97buy_php:1.0/php" id="4b08d220-aca6-449b-aa10-0e59fcba1614" name="97buy 7.1" debugger_id="php.debugger.XDebug">
-        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="kencool107/97buy_php:1.0" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
-      </interpreter>
-      <interpreter home="docker://kencool107/php7-apache:latest/php" id="4c541a1d-5c59-486d-87fa-f8063751d0eb" name="My Local PHP 7.1" debugger_id="php.debugger.XDebug">
-        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="kencool107/php7-apache:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
-      </interpreter>
-      <interpreter home="docker://sbdev/wordpress:ww-2.2/php" id="374d05de-8cc9-427e-be87-4ea143398fa0" name="Remote PHP 5.5" debugger_id="php.debugger.XDebug">
-        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="sbdev/wordpress:ww-2.2" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
-      </interpreter>
-      <interpreter home="docker://sbdev/laravel-xdebug:laravel-x-1.2/php" id="6afec85d-6aa7-441b-8549-b6f4929f5b17" name="background check 7.1" debugger_id="php.debugger.XDebug">
-        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="sbdev/laravel-xdebug:laravel-x-1.2" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
-      </interpreter>
-    </interpreters>
-  </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="background check 7.1">
